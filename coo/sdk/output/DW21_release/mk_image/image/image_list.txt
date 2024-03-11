@@ -1,0 +1,4 @@
+DW21_module_app_v100r001c00spc121b012_common_cco.hupg
+DW21_module_app_v100r001c00spc121b012_common_sta.hupg
+DW21_module_app_v100r001c00spc121b012_common_cco.hbin
+DW21_module_app_v100r001c00spc121b012_common_sta.hbin

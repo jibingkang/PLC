@@ -1,0 +1,202 @@
+<CONFIG><MODULE name="EXT_MODULE_MODULE_APP" value="yes" open_source="yes" path="app/module_app" net_attr="separate" lib_name="libmodule_app.a" include_name="soc_mdm_module_app.h" inner_include_name="soc_inner_module_app.h" is_dyn="yes" help="">
+		<item type="0x1" name="PRODUCT_CFG_DEBUG_JTAG_LED_MODULE_APP" value="no" depends="" help="" />
+		<item type="0x1" name="PRODUCT_CFG_DEBUG_CRASH_MODULE_APP" value="no" depends="" help="" />
+        <item type="0x1" name="PRODUCT_CFG_FAST_SEND_DEMO" value="no" depends="" help="" />
+		<item type="0x1" name="PRODUCT_CFG_PLC_MODULE_APP_TEST" value="yes" depends="" help="" />
+        <item type="0x1" name="PRODUCT_CFG_SDK_WHTIE_LIST_SUPPORT" value="no" depends="" help="" />
+        <DEV name="PRODUCT_CFG_PRODUCT_TYPE_CCO">
+            
+            
+            <item type="0x1" name="PRODUCT_CFG_PARTITION_BOOT_ST_ADDR" value="0x0" depends="" help="" />
+            <item type="0x1" name="PRODUCT_CFG_PARTITION_BOOT_SIZE" value="0x4000" depends="" help="" />
+            
+            <item type="0x1" name="PRODUCT_CFG_PARTITION_FTM1_ST_ADDR" value="0x4000" depends="" help="" />
+            <item type="0x1" name="PRODUCT_CFG_PARTITION_FTM1_SIZE" value="0x1000" depends="" help="" />
+            
+            <item type="0x1" name="PRODUCT_CFG_PARTITION_FTM2_ST_ADDR" value="0x5000" depends="" help="" />
+            <item type="0x1" name="PRODUCT_CFG_PARTITION_FTM2_SIZE" value="0x1000" depends="" help="" />
+            
+            <item type="0x1" name="PRODUCT_CFG_PARTITION_NV_FILE_ST_ADDR" value="0x6000" depends="" help="" />
+            <item type="0x1" name="PRODUCT_CFG_PARTITION_NV_FILE_SIZE" value="0x1000" depends="" help="" />
+            
+            <item type="0x1" name="PRODUCT_CFG_PARTITION_KERNEL_ST_ADDR" value="0x7000" depends="" help="" />
+            <item type="0x1" name="PRODUCT_CFG_PARTITION_KERNEL_SIZE" value="0x46000" depends="" help="" />
+            
+            <item type="0x1" name="PRODUCT_CFG_PARTITION_UPG_ST_ADDR" value="0x4D000" depends="" help="" />
+            <item type="0x1" name="PRODUCT_CFG_PARTITION_UPG_SIZE" value="0x2C000" depends="" help="" />
+            
+            <item type="0x1" name="PRODUCT_CFG_PARTITION_NV_WORK_ST_ADDR" value="0x79000" depends="" help="" />
+            <item type="0x1" name="PRODUCT_CFG_PARTITION_NV_WORK_SIZE" value="0x2000" depends="" help="" />
+            
+            <item type="0x1" name="PRODUCT_CFG_PARTITION_USER_ST_ADDR" value="0x7B000" depends="" help="" />
+            <item type="0x1" name="PRODUCT_CFG_PARTITION_USER_SIZE" value="0x4000" depends="" help="" />
+            
+            <item type="0x1" name="PRODUCT_CFG_PARTITION_CRASH_ST_ADDR" value="0x7F000" depends="" help="" />
+            <item type="0x1" name="PRODUCT_CFG_PARTITION_CRASH_SIZE" value="0x1000" depends="" help="" />
+
+            
+            
+            <item type="0x1" name="PARTITION_VER_CTL_SUPPORT_ENABLE" value="0x1" depends="" help="" />
+            
+            <item type="0x1" name="PARTITION_VER_CTL_NUM" value="0x2" depends="" help="" />
+            
+            <item type="0x1" name="PARTITION_VER_CTL_COMPATIBLE" value="0x3" depends="" help="" />
+
+            
+            
+            <item type="0x1" name="PARTITION_TRANS_LOG_ENABLE" value="0x0" depends="" help="" />
+            
+            <item type="0x1" name="PARTITION_TRANS_TB_ID" value="6,5,4" depends="" help="" />
+            
+            <item type="0x1" name="PRODUCT_CFG_PARTITION_LOG_TEMP_ADDR" value="0x7D000" depends="" help="" />
+        </DEV>
+        <DEV name="PRODUCT_CFG_PRODUCT_TYPE_STA">
+            <item type="0x1" name="PRODUCT_CFG_PARTITION_BOOT_ST_ADDR" value="0x0" depends="" help="" />
+            <item type="0x1" name="PRODUCT_CFG_PARTITION_BOOT_SIZE" value="0x4000" depends="" help="" />
+            <item type="0x1" name="PRODUCT_CFG_PARTITION_FTM1_ST_ADDR" value="0x4000" depends="" help="" />
+            <item type="0x1" name="PRODUCT_CFG_PARTITION_FTM1_SIZE" value="0x1000" depends="" help="" />
+            <item type="0x1" name="PRODUCT_CFG_PARTITION_FTM2_ST_ADDR" value="0x5000" depends="" help="" />
+            <item type="0x1" name="PRODUCT_CFG_PARTITION_FTM2_SIZE" value="0x1000" depends="" help="" />
+            <item type="0x1" name="PRODUCT_CFG_PARTITION_NV_FILE_ST_ADDR" value="0x6000" depends="" help="" />
+            <item type="0x1" name="PRODUCT_CFG_PARTITION_NV_FILE_SIZE" value="0x1000" depends="" help="" />
+            <item type="0x1" name="PRODUCT_CFG_PARTITION_KERNEL_ST_ADDR" value="0x7000" depends="" help="" />
+            <item type="0x1" name="PRODUCT_CFG_PARTITION_KERNEL_SIZE" value="0x46000" depends="" help="" />
+            <item type="0x1" name="PRODUCT_CFG_PARTITION_UPG_ST_ADDR" value="0x4D000" depends="" help="" />
+            <item type="0x1" name="PRODUCT_CFG_PARTITION_UPG_SIZE" value="0x2C000" depends="" help="" />
+            <item type="0x1" name="PRODUCT_CFG_PARTITION_NV_WORK_ST_ADDR" value="0x79000" depends="" help="" />
+            <item type="0x1" name="PRODUCT_CFG_PARTITION_NV_WORK_SIZE" value="0x2000" depends="" help="" />
+            <item type="0x1" name="PRODUCT_CFG_PARTITION_USER_ST_ADDR" value="0x7B000" depends="" help="" />
+            <item type="0x1" name="PRODUCT_CFG_PARTITION_USER_SIZE" value="0x4000" depends="" help="" />
+            <item type="0x1" name="PRODUCT_CFG_PARTITION_CRASH_ST_ADDR" value="0x7F000" depends="" help="" />
+            <item type="0x1" name="PRODUCT_CFG_PARTITION_CRASH_SIZE" value="0x1000" depends="" help="" />
+            
+            <item type="0x1" name="PARTITION_VER_CTL_SUPPORT_ENABLE" value="0x1" depends="" help="" />
+            <item type="0x1" name="PARTITION_VER_CTL_NUM" value="0x2" depends="" help="" />
+            <item type="0x1" name="PARTITION_VER_CTL_COMPATIBLE" value="0x3" depends="" help="" />
+            
+            <item type="0x1" name="PARTITION_TRANS_LOG_ENABLE" value="0x0" depends="" help="" />
+            <item type="0x1" name="PARTITION_TRANS_TB_ID" value="6,5,4" depends="" help="" />
+            <item type="0x1" name="PRODUCT_CFG_PARTITION_LOG_TEMP_ADDR" value="0x7D000" depends="" help="" />
+        </DEV>
+        <DEV name="PRODUCT_CFG_PRODUCT_TYPE_NDM">
+            <item type="0x1" name="PRODUCT_CFG_PARTITION_BOOT_ST_ADDR" value="0x0" depends="" help="" />
+            <item type="0x1" name="PRODUCT_CFG_PARTITION_BOOT_SIZE" value="0x4000" depends="" help="" />
+            <item type="0x1" name="PRODUCT_CFG_PARTITION_FTM1_ST_ADDR" value="0x4000" depends="" help="" />
+            <item type="0x1" name="PRODUCT_CFG_PARTITION_FTM1_SIZE" value="0x1000" depends="" help="" />
+            <item type="0x1" name="PRODUCT_CFG_PARTITION_FTM2_ST_ADDR" value="0x5000" depends="" help="" />
+            <item type="0x1" name="PRODUCT_CFG_PARTITION_FTM2_SIZE" value="0x1000" depends="" help="" />
+            <item type="0x1" name="PRODUCT_CFG_PARTITION_NV_FILE_ST_ADDR" value="0x6000" depends="" help="" />
+            <item type="0x1" name="PRODUCT_CFG_PARTITION_NV_FILE_SIZE" value="0x1000" depends="" help="" />
+            <item type="0x1" name="PRODUCT_CFG_PARTITION_KERNEL_ST_ADDR" value="0x7000" depends="" help="" />
+            <item type="0x1" name="PRODUCT_CFG_PARTITION_KERNEL_SIZE" value="0x46000" depends="" help="" />
+            <item type="0x1" name="PRODUCT_CFG_PARTITION_UPG_ST_ADDR" value="0x4D000" depends="" help="" />
+            <item type="0x1" name="PRODUCT_CFG_PARTITION_UPG_SIZE" value="0x2C000" depends="" help="" />
+            <item type="0x1" name="PRODUCT_CFG_PARTITION_NV_WORK_ST_ADDR" value="0x79000" depends="" help="" />
+            <item type="0x1" name="PRODUCT_CFG_PARTITION_NV_WORK_SIZE" value="0x2000" depends="" help="" />
+            <item type="0x1" name="PRODUCT_CFG_PARTITION_USER_ST_ADDR" value="0x7B000" depends="" help="" />
+            <item type="0x1" name="PRODUCT_CFG_PARTITION_USER_SIZE" value="0x4000" depends="" help="" />
+            <item type="0x1" name="PRODUCT_CFG_PARTITION_CRASH_ST_ADDR" value="0x7F000" depends="" help="" />
+            <item type="0x1" name="PRODUCT_CFG_PARTITION_CRASH_SIZE" value="0x1000" depends="" help="" />
+            
+            <item type="0x1" name="PARTITION_VER_CTL_SUPPORT_ENABLE" value="0x1" depends="" help="" />
+            <item type="0x1" name="PARTITION_VER_CTL_NUM" value="0x2" depends="" help="" />
+            <item type="0x1" name="PARTITION_VER_CTL_COMPATIBLE" value="0x3" depends="" help="" />
+            
+            <item type="0x1" name="PARTITION_TRANS_LOG_ENABLE" value="0x0" depends="" help="" />
+            <item type="0x1" name="PARTITION_TRANS_TB_ID" value="6,5,4" depends="" help="" />
+            <item type="0x1" name="PRODUCT_CFG_PARTITION_LOG_TEMP_ADDR" value="0x7D000" depends="" help="" />
+        </DEV>
+    </MODULE>
+<MODULE name="EXT_MODULE_ADC" value="yes" open_source="yes" path="bsp/drivers/adc" net_attr="all" lib_name="libadc.o" include_name="soc_mdm_adc.h" inner_include_name="soc_inner_adc.h" is_dyn="no" help="" />
+<MODULE name="EXT_MODULE_SYS_COMMON" value="yes" open_source="yes" path="bsp/drivers/common" net_attr="all" lib_name="libsys_common.o" include_name="soc_mdm_sys_common.h" inner_include_name="soc_inner_sys_common.h" is_dyn="no" help="" />
+<MODULE name="EXT_MODULE_DRV_COLLECTDATA" value="yes" open_source="yes" path="bsp/drivers/datacollect" net_attr="separate" lib_name="libdrv_datacollect.a" include_name="soc_mdm_datacollect.h" inner_include_name="soc_inner_datacollect.h" is_dyn="yes" help="">
+	</MODULE>
+<MODULE name="EXT_MODULE_DRV_DFX" value="yes" open_source="yes" path="bsp/drivers/drv_dfx" net_attr="separate" lib_name="libdrv_dfx.a" include_name="soc_mdm_drv_dfx.h" inner_include_name="soc_inner_drv_dfx.h" is_dyn="yes" help="">
+	<item type="0x1" name="PRODUCT_CFG_MEM_OPERATE" value="no" depends="" help="" />
+    <DEV name="PRODUCT_CFG_PRODUCT_TYPE_NDM">
+        <item type="0x1" name="PRODUCT_CFG_NDM_COLLECT_DATA" value="yes" depends="" help="" />
+    </DEV>
+	</MODULE>
+<MODULE name="EXT_MODULE_FLASH_RAM" value="yes" open_source="yes" path="bsp/drivers/flash_ram" net_attr="all" lib_name="libflash_ram.o" include_name="soc_mdm_flash_ram.h" inner_include_name="soc_inner_flash_ram.h" is_dyn="no" help="" />
+<MODULE name="EXT_MODULE_IO_CONFIG" value="yes" open_source="yes" path="bsp/drivers/io_cfg" net_attr="all" lib_name="libio_config.o" include_name="soc_mdm_io_config.h" inner_include_name="soc_inner_io_config.h" is_dyn="no" help="" />
+<MODULE name="EXT_MODULE_PGA" value="yes" open_source="yes" path="bsp/drivers/pga" net_attr="all" lib_name="libpga.a" include_name="soc_mdm_pga.h" inner_include_name="soc_inner_pga.h" is_dyn="yes" help="" />
+<MODULE name="EXT_MODULE_PWM" value="yes" open_source="yes" path="bsp/drivers/pwm" net_attr="all" lib_name="libpwm.a" include_name="soc_mdm_pwm.h" inner_include_name="soc_inner_pwm.h" is_dyn="yes" help="" />
+<MODULE name="EXT_MODULE_RAW_TIMER" value="yes" open_source="yes" path="bsp/drivers/raw_timer" net_attr="all" lib_name="libraw_timer.o" include_name="soc_mdm_raw_timer.h" inner_include_name="soc_inner_raw_timer.h" is_dyn="no" help="" />
+<MODULE name="EXT_MODULE_TSENSOR" value="yes" open_source="yes" path="bsp/drivers/tsensor" net_attr="all" lib_name="libtsensor.a" include_name="soc_mdm_tsensor.h" inner_include_name="soc_inner_tsensor.h" is_dyn="yes" help="">
+	</MODULE>
+<MODULE name="EXT_MODULE_UART" value="yes" open_source="yes" path="bsp/drivers/uart" net_attr="all" lib_name="libuart.o" include_name="soc_mdm_uart.h" inner_include_name="soc_inner_uart.h" is_dyn="no" help="">
+		<item type="0x1" name="PRODUCT_CFG_UART_INIT_NEW" value="yes" depends="" help="" />
+	</MODULE>
+<MODULE name="EXT_MODULE_CPUP" value="yes" open_source="yes" path="bsp/system/cpup" net_attr="all" lib_name="libcpup.a" include_name="soc_mdm_cpup.h" inner_include_name="soc_inner_cpup.h" is_dyn="yes" help="" />
+<MODULE name="EXT_MODULE_NVM" value="yes" open_source="yes" path="bsp/system/nvm" net_attr="all" lib_name="libnvm.a" include_name="soc_mdm_nvm.h" inner_include_name="soc_inner_nvm.h" is_dyn="yes" help="" />
+<MODULE name="EXT_MODULE_PARTITION_TABLE" value="yes" open_source="yes" path="bsp/system/partition_table" net_attr="all" lib_name="libpartition_table.o" include_name="soc_mdm_partition_table.h" inner_include_name="soc_inner_partition_table.h" is_dyn="no" help="" />
+<MODULE name="EXT_MODULE_REMAP_USR" value="yes" open_source="yes" path="bsp/system/remap_usr" net_attr="all" lib_name="libremap_usr.a" include_name="soc_mdm_remap_usr.h" inner_include_name="soc_inner_remap_usr.h" is_dyn="yes" help="">
+		<item type="0x1" name="PRODUCT_CFG_USR_REMAP_32K" value="yes" depends="" help="" />
+		<item type="0x1" name="PRODUCT_CFG_USR_REMAP_DFX" value="no" depends="" help="" />
+		<item type="0x1" name="PRODUCT_CFG_USR_REMAP_DIAG" value="no" depends="" help="" />
+	</MODULE>
+<MODULE name="EXT_MODULE_SYS" value="yes" open_source="yes" path="bsp/system/sys" net_attr="separate" lib_name="libsys.a" include_name="soc_mdm_sys.h" inner_include_name="soc_inner_sys.h" is_dyn="yes" help="">
+		<item type="0x1" name="PRODUCT_CFG_SYS_REBOOT_DELAY" value="2000" depends="" help="" />
+	</MODULE>
+<MODULE name="overall" value="yes" open_source="yes" path="" net_attr="" lib_name="" include_name="" inner_include_name="" is_dyn="" help="">
+        
+        <item type="0x0" name="REMAP_CFLAGS" value=" -DUSE_REMAP -DREMAP_WITH_LRU -DREMAP_SECTOR_32K " depends="" help="means whether dynamic loading is supported" />
+        <item type="0x0" name="ROM_CFLAGS" value=" -DUSE_ROM " depends="" help="means whether Romization is supported" />
+        <item type="0x0" name="MAIN_CFLAGS" value=" -nostdinc -falign-functions=4 -fno-aggressive-loop-optimizations -fno-builtin  -gdwarf-2 -std=c99 -Wpointer-arith -Wstrict-prototypes -mno-thumb-interwork  -ffunction-sections -fdata-sections -fno-exceptions -fstack-protector-strong  -fno-short-enums -fno-common -fno-delete-null-pointer-checks -fsigned-char -freg-struct-return -fvisibility=hidden -fno-strict-aliasing -pipe -mcpu=cortex-m3 -mthumb  -DCYGPKG_POSIX_SIGNALS  -D__ECOS__   -D__RTOS_ -O2 " depends="" help="C Language basic compile option. CNComments: C语言基础编译选项" />
+        <item type="0x0" name="WARNNING_CFLAGS" value=" -W -Wall -Wundef -Werror -Wdate-time -Wextra -Wfloat-equal -Wformat=2 -Wshadow -Wtrampolines" depends="" help="means the compile alarm option configuration. CNComments: 表示编译报警选项配置" />
+        <item type="0x0" name="MEM_DEBUG_CFLAGS" value=" -D__MEM_HEAP_STAT_PATCH__ " depends="" help="Statistics of dynamic memory usage by BSP, MAC and APP. CNComments: 按BSP,MAC,APP统计动态内存使用情况开关" />
+        <item type="0x0" name="DEBUG_CFLAGS" value=" -g " depends="" help="commission compile option. CNComments: 调测编译选项" />
+        <item type="0x0" name="MAIN_ASFLAGS" value=" -mcpu=cortex-m3 -mthumb " depends="" help="default compile option for assembling file. CNComments: 汇编文件默认编译选项" />
+        <item type="0x0" name="HB_SAVE_COMPILE_LOG_ENABLE" value="" depends="" help="" />
+        <item type="0x0" name="CFLAGS" value="$(MAIN_CFLAGS) $(WARNNING_CFLAGS) $(REMAP_CFLAGS) $(ROM_CFLAGS)" depends="" help="" />
+        <item type="0x0" name="ASFLAGS" value="$(MAIN_ASFLAGS)" depends="" help="" />
+
+        
+        <item type="0x0" name="RM" value="rm -rf" depends="" help="" />
+        <item type="0x0" name="MAKE" value="make" depends="" help="" />
+        <item type="0x0" name="MV" value="mv" depends="" help="" />
+        <item type="0x0" name="MAKE_DIR" value="mkdir -p" depends="" help="" />
+        
+        <item type="0x0" name="Q" value="@" depends="" help="" />
+        
+        <item type="0x0" name="ARFLAGS" value="cr" depends="" help="" />
+
+        
+	<item type="0x0" name="CROSS_COMPILE_DIR" value="$(MAIN_TOPDIR)/tools/toolchains/gcc-arm-none-eabi-10.3-2021.07/bin" depends="" help="" />
+	<item type="0x0" name="CROSS_COMPILE" value="$(CROSS_COMPILE_DIR)/arm-none-eabi-" depends="" help="" />
+        <item type="0x0" name="CC" value="$(CROSS_COMPILE)gcc" depends="" help="" />
+        <item type="0x0" name="AS" value="$(CROSS_COMPILE)as" depends="" help="" />
+        <item type="0x0" name="AR" value="$(CROSS_COMPILE)ar" depends="" help="" />
+        <item type="0x0" name="LD" value="$(CROSS_COMPILE)ld" depends="" help="" />
+        <item type="0x0" name="OBJCOPY" value="$(CROSS_COMPILE)objcopy" depends="" help="" />
+        <item type="0x0" name="OBJDUMP" value="$(CROSS_COMPILE)objdump" depends="" help="" />
+
+        
+        <item type="0x1" name="PRODUCT_CFG_FEATURE_NVM" value="YES" depends="" help="" />
+        <item type="0x1" name="PRODUCT_CFG_FEATURE_MAC_TASK" value="YES" depends="" help="" />
+        <item type="0x1" name="PRODUCT_CFG_SUPPORT_UPG" value="YES" depends="" help="" />
+        <item type="0x1" name="PRODUCT_CFG_SUPPORT_CONFIG_VARIABLE" value="YES" depends="" help="means whether _U is supported. CNComments: 表示是否支持_U" />
+        <item type="0x1" name="PRODUCT_CFG_SUPPORT_FLASH_PROTECT" value="YES" depends="" help="" />
+        <item type="0x1" name="PRODUCT_CFG_MCORE_RAM_LOW_ADDR" value="0x02000000" depends="" help="" />
+        <item type="0x1" name="PRODUCT_CFG_FLASH_BLOCK_SIZE" value="0x1000" depends="" help="" />
+        <item type="0x1" name="PRODUCT_CFG_FEATURE_STA_CONCENTRATOR_CHECK" value="NO" depends="" help="whole concentrator detection, cross network management and link layer. CNComments:整集中器检测，跨网管和链路层" />
+        <item type="0x1" name="PRODUCT_CFG_PRINT_UART0" value="NO" depends="" help="" />
+        <item type="0x1" name="EXT_UPG_DEBUG_PRINTF" value="NO" depends="" help="" />
+        <item type="0x1" name="PRODUCT_CFG_BOOT_VER_MAGIC" value="0x12121213" depends="" help="Boot magic word. Influence: factory file upgrade. CNComments: Boot魔术字。影响：厂家文件升级" />
+        <item type="0x1" name="PRODUCT_CFG_CHIP_MAGIC" value="0x57555557" depends="" help="Chip magic word. Influence: factory file upgrade. CNComments:芯片魔术字。影响：厂家文件升级" />
+        <item type="0x1" name="PRODUCT_CFG_SUPPORT_UPG_FROM_DBK" value="YES" depends="" help="sta upg from dbk" />
+        <item type="0x1" name="PRODUCT_CFG_SUPPORT_DEEP_SLEEP" value="YES" depends="" help="" />
+        
+        <item type="0x1" name="PRODUCT_CFG_MANUCODE" value="0x5744" depends="" help="factory product code. Influence: factory file upgrade. CNComments:厂家产品代码。影响：厂家文件升级" />
+        <item type="0x1" name="PRODUCT_CFG_UPG_FILE_END_SIGNATURE" value="0x57555557" depends="" help="upgrade the end of file magic word. Influence:content of upgrading file tail, and factory upgrade. CNComments:升级文件尾魔术字。影响:升级文件尾部内容,厂家升级" />
+        <item type="0x1" name="PRODUCT_CFG_SECURE_UPG" value="YES" depends="" help="whether to perform RSA signature verification when booting the kernel and upgrading. CNComments:引导kernel和升级时是否进行RSA签名验证" />
+
+    </MODULE>
+
+<MODULE name="EXT_MODULE_MBEDTLS" value="yes" open_source="yes" path="mdm/mac/mbedtls" net_attr="all" lib_name="libmbedtls.a" include_name="soc_mdm_mbedtls.h" inner_include_name="soc_inner_mbedtls.h" is_dyn="yes" help="" />
+<MODULE name="EXT_MODULE_UPG_21" value="yes" open_source="yes" path="mdm/mid/upg_21" net_attr="separate" lib_name="libupg_21.a" include_name="soc_mdm_upg_21.h" inner_include_name="soc_inner_upg_21.h" is_dyn="yes" help="" />
+<MODULE name="EXT_MODULE_UPG_TRANS_FILE" value="yes" open_source="yes" path="mdm/mid/upg_trans_file" net_attr="separate" lib_name="libupg_trans_file.a" include_name="soc_mdm_upg_trans_file.h" inner_include_name="soc_inner_upg_trans_file.h" is_dyn="yes" help="" />
+<MODULE name="EXT_MODULE_PLC_FREQ" value="yes" open_source="yes" path="mdm/phy/plc_freq" net_attr="separate" lib_name="libplc_freq.a" include_name="soc_mdm_plc_freq.h" inner_include_name="soc_inner_plc_freq.h" is_dyn="yes" help="" />
+<MODULE name="EXT_MODULE_NV" value="no" open_source="yes" path="" net_attr="" lib_name="" include_name="" inner_include_name="" is_dyn="" help="" />
+<MODULE name="EXT_MODULE_DBK" value="no" open_source="no" path="" net_attr="" lib_name="" include_name="" inner_include_name="" is_dyn="" help="" />
+</CONFIG>
